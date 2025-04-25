@@ -12,6 +12,13 @@ std::vector<std::string> filter_prefix(std::vector<std::string> v,
                                        std::string s) {
   std::vector<std::string> result;
   // TODO
+  for(size_t i = 0; i < v.size();i++){
+    if (v[i].starts_with(s)){
+      result.push_back(v[i]);
+    }
+      
+    
+  }
   return result;
 }
 

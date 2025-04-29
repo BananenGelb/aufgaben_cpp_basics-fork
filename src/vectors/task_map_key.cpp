@@ -12,6 +12,16 @@ namespace inf2_basics {
 /// wird ebenfalls -1 zurückgegeben.
 int map_key(std::vector<int> keys, std::vector<int> values, int n) {
   // TODO
+  for (int i=0; i < keys.size();i++){
+    if (keys[i] == n){
+      if (values.size()> i){
+        return values[i];
+      }else{
+        return -1;
+      }
+    }
+      
+  } 
   return -1;
 }
 

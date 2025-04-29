@@ -13,11 +13,8 @@ size_t find_string(std::vector<std::string> v, std::string s) {
   //TODO
   for(int i = 0; i<v.size();i++){
   if (v[i]== s){
-
-
     return i;
   }
-  
   }
   return v.size();
 }
